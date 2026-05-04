@@ -1,5 +1,5 @@
 import type { Context } from "grammy";
-import type { FSMFlavor } from "./types";
+import type { FSMFlavor } from "./types.js";
 
 /**
  * Filter function that checks if user is in a specific state

@@ -4,7 +4,7 @@ import type {
   FSMContextMethods,
   FSMSessionData,
   StateNamespace,
-} from "./types";
+} from "./types.js";
 
 /**
  * Creates state namespace with methods for state management

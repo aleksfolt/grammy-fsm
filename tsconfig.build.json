@@ -18,7 +18,10 @@
 
     // Don't allow importing .ts extensions in output
     "allowImportingTsExtensions": false,
-    "verbatimModuleSyntax": false
+    "verbatimModuleSyntax": false,
+
+    // Add .js extensions to relative imports for Node.js ESM
+    "rewriteRelativeImportExtensions": true
   },
   "include": [
     "src/**/*"
