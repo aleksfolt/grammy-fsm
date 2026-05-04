@@ -22,7 +22,6 @@
     "url": "https://github.com/crimson2k/grammy-fsm/issues"
   },
   "homepage": "https://github.com/crimson2k/grammy-fsm#readme",
-  "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",

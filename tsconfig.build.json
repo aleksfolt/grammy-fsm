@@ -12,16 +12,13 @@
     "rootDir": "./src",
 
     // Module settings for Node.js compatibility
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "target": "ES2020",
 
     // Don't allow importing .ts extensions in output
     "allowImportingTsExtensions": false,
-    "verbatimModuleSyntax": false,
-
-    // Add .js extensions to relative imports for Node.js ESM
-    "rewriteRelativeImportExtensions": true
+    "verbatimModuleSyntax": false
   },
   "include": [
     "src/**/*"
